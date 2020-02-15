@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <title>Gallery</title>
+
+    <style> 
+
+    body {
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    }
+
+    #container { 
+    margin: 15px auto;
+    width: 70%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    div.gallery {
+    margin: 15px;
+    border: 1px solid #ccc;
+    width: 180px;
+    }
+
+    div.gallery:hover {
+    border: 1px solid #777;
+    box-shadow: 10px 10px 5px #efefef;
+    background-color: #4c8bf5;
+    color: white;
+    }
+
+    div.gallery img {
+    width: 100%;
+    height: auto;
+    }
+
+    div.desc {
+    padding: 15px;
+    text-align: center;
+    }
+
+    h1 {
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    }
+
+    #text {
+    width:77%;
+    margin: 10px auto;
+    text-align: center;
+    }
+
+    p {
+    font-size: 1.1em;
+    font-weight: normal;
+    text-align: justify;
+    text-justify: inter-word;
+    }
+
+    </style>
+
+</head>
+<body>
+    
+    <h1>Nature Gallery</h1>
+
+<div id="container">
+
+      <div class="gallery">
+        <a target="_blank" href="photos/elephant.jpg">
+          <img src="photos/elephant.jpg" alt="Elephant" width="600" height="400">
+        </a>
+        <div class="desc">Elephant</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="photos/forest.jpg">
+          <img src="photos/forest.jpg" alt="Forest" width="600" height="400">
+        </a>
+        <div class="desc">Forest</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="photos/lake.jpg">
+          <img src="photos/lake.jpg" alt="Lake" width="600" height="400">
+        </a>
+        <div class="desc">Lake</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="photos/waterfall.jpg">
+          <img src="photos/waterfall.jpg" alt="Waterfall" width="600" height="400">
+        </a>
+        <div class="desc">Waterfall</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="photos/sunset.jpg">
+          <img src="photos/sunset.jpg" alt="Sunset" width="600" height="400">
+        </a>
+        <div class="desc">Sunset</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="photos/pyramids.jpg">
+          <img src="photos/pyramids.jpg" alt="Pyramids" width="600" height="400">
+        </a>
+        <div class="desc">Pyramids</div>
+      </div>
+
+      <div class="gallery">
+        <a target="_blank" href="photos/beach.jpg">
+          <img src="photos/beach.jpg" alt="Beach" width="600" height="400">
+        </a>
+        <div class="desc">Beach</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="photos/river.jpg">
+          <img src="photos/river.jpg" alt="River" width="600" height="400">
+        </a>
+        <div class="desc">River</div>
+      </div>
+
+      <div id="text">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, consequuntur fuga, 
+            distinctio delectus quaerat placeat natus deserunt voluptatum ad consectetur cum officiis ab. 
+            Beatae quam rem consequatur veniam omnis quidem.
+            consequuntur fuga,m dolor sit amet consectetur adipisicing elit. Facilis, consequuntur fuga, 
+            distinctio
+        </p>
+     </div>
+</div>    
+
+</body>
+</html>
